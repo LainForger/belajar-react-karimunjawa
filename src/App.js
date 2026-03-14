@@ -38,9 +38,17 @@ function App() {
             Developed by <b>Lain Forger</b>
           </p>
 
-          <a className="App-link" href="#destinasi-wisata">
+          <button
+            className="App-link"
+            onClick={() =>
+              document
+                .getElementById("destinasi-wisata")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+            style={{ border: "none", cursor: "pointer" }}
+          >
             MULAI PETUALANGAN
-          </a>
+          </button>
         </div>
 
         {/* BAGIAN GALERI (DI BAWAH TOMBOL) */}
