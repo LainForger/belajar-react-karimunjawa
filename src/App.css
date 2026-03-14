@@ -195,12 +195,12 @@ html {
   flex-direction: column;
   align-items: center;
 }
-/* Mencegah layar goyang ke samping */
 html, body {
-  overflow-x: hidden;
-  width: 100%;
+  overflow-x: hidden; /* Kunci biar gak bisa geser kanan-kiri */
+  width: 100vw;       /* Paksa lebar sesuai lebar layar HP */
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .App {
