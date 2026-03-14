@@ -7,7 +7,7 @@ Project eksplorasi wisata Karimunjawa berbasis **React**. Dibuat untuk memudahka
 - [x] **Interactive Map**: Peta spot wisata menarik di Karimunjawa.
 - [x] **Gallery**: Koleksi foto keindahan alam bawah laut.
 - [x] **Tour Guide**: Informasi paket wisata dan penginapan.
-- [] **Responsive Design**: Nyaman dibuka di HP maupun Laptop.
+- [ ] **Responsive Design**: Nyaman dibuka di HP maupun Laptop. (Sudah kita kerjain barusan!)
 
 ## 🛠️ Tech Stack
 
