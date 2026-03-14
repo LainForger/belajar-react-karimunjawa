@@ -145,21 +145,23 @@ html {
   border: none;
   display: block; /* Menghilangkan celah kecil di bawah */
 }
-.App-header {
-  width: 100%;
-  overflow-x: hidden; /* Biar isinya gak ada yang keluar jalur */
-  box-sizing: border-box;
-}
-
-/* Pastikan judul gak terlalu gede di HP */
+/* Aturan khusus untuk layar HP */
 @media (max-width: 768px) {
-  h1 {
-    font-size: 2rem !important;
-    word-wrap: break-word; /* Biar kalau kepanjangan dia turun ke bawah, gak dorong samping */
+  .destinasi-card, .map-section, .map-container {
+    width: 90% !important; /* Paksa lebar jadi 90% layar HP */
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box; /* Biar padding gak nambahin lebar */
   }
-  
-  .list-container {
-    width: 85% !important; /* Kecilin dikit biar gak mepet pinggir */
+
+  /* Peta harus fleksibel */
+  iframe {
+    width: 100% !important;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
   }
 }
 
@@ -193,12 +195,12 @@ html {
   flex-direction: column;
   align-items: center;
 }
+/* Mencegah layar goyang ke samping */
 html, body {
-  overflow-x: hidden; /* Kunci biar gak bisa geser kanan-kiri */
-  width: 100vw;       /* Paksa lebar sesuai lebar layar HP */
+  overflow-x: hidden;
+  width: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
 }
 
 .App {
