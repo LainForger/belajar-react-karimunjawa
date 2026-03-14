@@ -41,6 +41,8 @@ h1 {
   font-weight: bold;
   transition: 0.3s;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-link:hover {
