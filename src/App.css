@@ -197,7 +197,7 @@ html {
 }
 html, body {
   overflow-x: hidden; /* Kunci biar gak bisa geser kanan-kiri */
-  width: 100vw;       /* Paksa lebar sesuai lebar layar HP */
+  width: 100%;       /* Paksa lebar sesuai lebar layar HP */
   margin: 0;
   padding: 0;
   position: relative;
